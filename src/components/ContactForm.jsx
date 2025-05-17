@@ -115,7 +115,6 @@ export default function ContactForm() {
           </div>
         </div>
 
-        {/* Right side: Contact Inputs */}
         <div className="w-[510px] flex flex-col gap-[20px]">
           <input
             className={styles.form.background}
@@ -150,7 +149,7 @@ export default function ContactForm() {
             <p className={`${styles.error}`}>{errors.phone.message}</p>
           )}
 
-          <label className="flex gap-2 items-start text-sm text-gray-600">
+          <label className="flex gap-2 items-center text-sm text-gray-600">
             <input
               type="checkbox"
               {...register("agreement", { required: "Вы должны согласиться" })}

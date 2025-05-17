@@ -35,7 +35,9 @@ export default function HeaderBanner() {
                 <p className="pb-[20px] text-[16px] font-[500] text-white leading-[120%] ">
                   для HoReCa, общепита, производителей
                 </p>
-                <button className="btn-primary">Получить прайс</button>
+                <button className={`${styles.buttonPrimary}`}>
+                  Получить прайс
+                </button>
               </div>
             </div>
           </SwiperSlide>
@@ -51,7 +53,9 @@ export default function HeaderBanner() {
                 <p className="pb-[20px] text-[16px] font-[500] text-white leading-[120%] ">
                   Работайте с производителем напрямую
                 </p>
-                <button className="btn-primary">Получить прайс</button>
+                <button className={`${styles.buttonPrimary}`}>
+                  Получить прайс
+                </button>
               </div>
             </div>
           </SwiperSlide>
@@ -68,7 +72,9 @@ export default function HeaderBanner() {
                 <p className="pb-[20px] text-[16px] font-[500] text-white leading-[120%] ">
                   для HoReCa, магазины «У дома», торговые сети
                 </p>
-                <button className="btn-primary">Получить прайс</button>
+                <button className={`${styles.buttonPrimary}`}>
+                  Получить прайс
+                </button>
               </div>
             </div>
           </SwiperSlide>

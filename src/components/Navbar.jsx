@@ -4,14 +4,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/image/logo.svg";
 import MenuBar from "./MenuBar";
-import {  FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { styles } from "../styles/styles";
 import Search from "./Search";
+import LangDropDown from "./LangDropDown";
+import { useTranslation } from "react-i18next";
 export default function Navbar() {
+
   return (
     <nav>
       <div className="py-[25px] ">
-        <div className={`${styles.container} flex justify-between items-center`}>
+        <div
+          className={`${styles.container} flex justify-between items-center`}
+        >
           <div className="flex items-center gap-2">
             <Link className="flex gap-2 items-center" to={"/"}>
               <img src={logo} alt="" />
@@ -47,7 +52,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="w-full bg-[#203686] py-[12px]">
+      <div className="w-full hidden lg:block bg-[#203686] py-[12px]">
         <div
           className={`${styles.container} flex justify-between items-center`}
         >
@@ -56,8 +61,7 @@ export default function Navbar() {
               <CgMenuGridO />
               Каталог товаров
             </button>
-            <Search/>
-         
+            <Search />
           </div>
           <ul className="flex items-center gap-[42px]">
             <li>
@@ -78,6 +82,7 @@ export default function Navbar() {
                 </span>
               </Link>
             </li>
+            <LangDropDown />
             <button className=" ml-[32px] text-[16px] font-[600] leading-[120%] text-white cursor-pointer">
               Вход
             </button>

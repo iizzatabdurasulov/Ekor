@@ -9,36 +9,39 @@ import svg3 from "../assets/image/svg3.svg";
 import svg4 from "../assets/image/svg4.svg";
 import png5 from "../assets/image/Rectangle 34624482.png";
 import manager from "../assets/image/Ellipse 200.svg";
+
+export const languages = ["ru", "en", "uz"];
+
 export const menuBar = [
   {
     id: 0,
-    linkName: "Доставка",
+    linkName: "menutranslator1",
     slug: "/",
   },
   {
     id: 1,
-    linkName: "Прайс",
+    linkName: "menutranslator2",
     slug: "/",
   },
 
   {
     id: 2,
-    linkName: "Производство",
+    linkName: "menutranslator3",
     slug: "/",
   },
   {
     id: 3,
-    linkName: "Оплата",
+    linkName: "menutranslator4",
     slug: "/",
   },
   {
     id: 4,
-    linkName: "Контакты",
+    linkName: "menutranslator5",
     slug: "/",
   },
   {
     id: 5,
-    linkName: "О компании ",
+    linkName: "menutranslator6",
     slug: "/",
   },
 ];
@@ -235,54 +238,53 @@ export const main = [
     title: "Личный кабинет для заказов",
     description:
       "Удобный личный кабинет для управления и размещения ваших заказов",
-      width: 'w-[550px]'
+    width: "w-[550px]",
   },
   {
     id: "02",
     title: "25 лет работы",
     description: "Производство с 1998 г.",
-       width: 'w-[265px]'
+    width: "w-[265px]",
   },
   {
     id: "03",
     title: "> 2000 м2",
     description: "Морозильных складов",
-    width: 'w-[265px]'
+    width: "w-[265px]",
   },
   {
     id: "04",
     title: "Сроки годности товаров на сайте",
     description:
       "Полная прозрачность с информацией о сроках годности каждого товара",
-      width: 'w-[550px]'
+    width: "w-[550px]",
   },
   {
     id: "05",
     title: "Весь товар в прайсе есть в наличии",
     description: "Гарантируем наличие всех товаров из прайс-листа",
-    width: 'w-[550px]'
+    width: "w-[550px]",
   },
   {
     id: "06",
     title: "Реальные фото",
     description:
       "На сайте представлены реальные фотографии каждой партии товаров",
-      width: 'w-[265px]'
+    width: "w-[265px]",
   },
   {
     id: "07",
     title: "40 автомобилей",
     description: "На доставке ежедневно",
-    width: 'w-[265px]'
+    width: "w-[265px]",
   },
   {
     id: "08",
     title: "Гарантируем принятие к зачету нашего НДС",
     description: "Демонстрируем прозрачность и честность в деловых отношениях",
-     width: 'w-[550px]'
+    width: "w-[550px]",
   },
 ];
-
 
 export const footerLinks = [
   {
@@ -293,8 +295,8 @@ export const footerLinks = [
       { id: 2, name: "Доставка" },
       { id: 3, name: "Чат-бот" },
       { id: 4, name: "Производство" },
-      { id: 5, name: "Контакты" }
-    ]
+      { id: 5, name: "Контакты" },
+    ],
   },
   {
     id: 2,
@@ -304,8 +306,8 @@ export const footerLinks = [
       { id: 7, name: "Филе рыбы, стейки, фарш" },
       { id: 8, name: "Морепродукты" },
       { id: 9, name: "Фасованная рыба Экопр" },
-      { id: 10, name: "Полуфабрикаты" }
-    ]
+      { id: 10, name: "Полуфабрикаты" },
+    ],
   },
   {
     id: 3,
@@ -316,8 +318,7 @@ export const footerLinks = [
       { id: 13, name: "Замороженные продукты" },
       { id: 14, name: "Консервы" },
       { id: 15, name: "Продукты питания оптом" },
-      { id: 16, name: "Карта сайта" }
-    ]
-  }
+      { id: 16, name: "Карта сайта" },
+    ],
+  },
 ];
-
